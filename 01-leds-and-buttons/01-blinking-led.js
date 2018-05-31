@@ -20,5 +20,5 @@ board.on('ready', () => {
 
 	// can't use port a0 for pulse. must use a PWM pin (ports 5 and 6 on the board)
 	// PWM = pulse width modulation
-	led.pulse(500, 1000);
+	led.pulse(500);
 });
